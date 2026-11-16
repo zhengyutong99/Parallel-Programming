@@ -1,4 +1,11 @@
-# Parallel-Programming
+# Parallel Programming
+
+Assignments and final project from *Parallel Programming* (Fall 2023), National Yang Ming Chiao Tung University.
+
+**Stack:** C/C++ · CUDA · OpenMP · MPI · OpenCL · SIMD intrinsics
+
+The final project is the main piece; `HW0`–`HW6` cover one parallel programming model each.
+
 ## Final Project : GPU Acceleration for iGEMDOCK ( A Molecular Docking Software )
 ### Issue
 Virtual screening relies heavily on computing the interaction energies between each ligand atom and every atom within a protein’s binding cavity. In iGEMDOCK, this step—known as fitness evaluation—is the most computationally expensive part of the workflow. As the number of ligands or the size of the ligand increases, the $O(N \times M)$ pairwise energy calculations quickly become a bottleneck, significantly slowing down the entire screening process. 
